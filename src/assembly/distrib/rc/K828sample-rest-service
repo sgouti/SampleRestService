@@ -1,0 +1,2 @@
+cd ecap/sample-rest-service/bin
+./sample-rest-service.stop

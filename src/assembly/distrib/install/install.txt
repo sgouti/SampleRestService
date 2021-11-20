@@ -1,0 +1,22 @@
+Install the Sample Rest Service
+
+1. Unzip the provided archive sample-rest-service-0.0.1-SNAPSHOT.zip on your desired server location
+2. If required modify the default port(8989) where the Sample Rest Service will be running. Change both and \sample-rest-service-0.0.1-SNAPSHOT\properties\sample-rest-service.properties 
+and \sample-rest-service-0.0.1-SNAPSHOT\bin\sample-rest-service.profile corresponding properties 
+3. Do not modify any other settings inside \sample-rest-service-0.0.1-SNAPSHOT\properties\sample-rest-service.properties 
+4. Start/stop the Start Rest Service by using its start/stop scripts from \sample-rest-service-0.0.1-SNAPSHOT\bin
+
+Access the eCAP FDC Web Client
+
+http://<host>:<port>/sample-rest-service/showCreateInstanceForm
+
+<host> and <port> as configured above
+e.g. http://ecap2:8989/sample-rest-service/showCreateInstanceForm
+
+Examples:
+
+localhost:8989/sample
+
+localhost:8989/in3out2Get?in1=12A&in2=23&in3=44
+localhost:8989/secured/in3out2Get?in1=12A&in2=23&in3=44
+user1/password1

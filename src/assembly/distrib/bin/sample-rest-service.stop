@@ -1,0 +1,10 @@
+#!/bin/sh
+#
+# Stop Sample Rest Service
+#
+home=`dirname $0`
+cd $home
+. ./sample-rest-service.profile
+
+wcapsv.stop $SAMPLE_REST_SERVICE_NAME $SAMPLE_REST_SERVICE_PORT
+

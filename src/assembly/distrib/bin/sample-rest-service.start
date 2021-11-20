@@ -1,0 +1,12 @@
+#!/bin/sh
+#
+# Start Sample Rest Service
+#
+home=`dirname $0`
+cd $home
+. ./sample-rest-service.profile
+
+
+# Change to the Sample Rest Service root directory
+cd ..
+wcapsv.start bin/sample-rest-service.sh $SAMPLE_REST_SERVICE_NAME $SAMPLE_REST_SERVICE_PORT null null ./bin/sample-rest-service.inline 
